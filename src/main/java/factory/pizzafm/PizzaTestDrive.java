@@ -1,4 +1,4 @@
-package factory;
+package factory.pizzafm;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {
