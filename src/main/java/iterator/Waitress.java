@@ -1,6 +1,6 @@
 package iterator;
 
-import java.util.Iterator;
+//import java.util.Iterator;
 
 public class Waitress {
 //    Menu pancakeHouseMenu;
@@ -15,15 +15,15 @@ public class Waitress {
 
     public void printMenu () {
 //        Iterator<MenuItem> pancakeIterator = pancakeHouseMenu.createIterator();
-        Iterator dinerIterator = dinerMenu.createIterator();
-        Iterator<MenuItem> cafeIterator = cafeMenu.createIterator();
+//        Iterator dinerIterator = dinerMenu.createIterator();
+//        Iterator<MenuItem> cafeIterator = cafeMenu.createIterator();
 
         System.out.println("메뉴\n----\n아침 메뉴");
 //        printMenu(pancakeIterator);
         System.out.println("\n점심 메뉴");
-        printMenu(dinerIterator);
+//        printMenu(dinerIterator);
         System.out.println("\n저녁 메뉴");
-        printMenu(cafeIterator);
+//        printMenu(cafeIterator);
     }
 
     private void printMenu(Iterator iterator) {
